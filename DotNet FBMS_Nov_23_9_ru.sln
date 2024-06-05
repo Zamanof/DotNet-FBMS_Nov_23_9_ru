@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Net 07", ".Net 07", "{E48A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 07. Null conditional, null coalesing", "Net 07. Null conditional, null coalesing\Net 07. Null conditional, null coalesing.csproj", "{E62F5887-96B9-4259-A973-36D019CE6E41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 07. Operator overloading", "Net 07. Operator overloading\Net 07. Operator overloading.csproj", "{61A31BA5-12BC-414C-BAE0-BA46514B0D77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{E62F5887-96B9-4259-A973-36D019CE6E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E62F5887-96B9-4259-A973-36D019CE6E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E62F5887-96B9-4259-A973-36D019CE6E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A31BA5-12BC-414C-BAE0-BA46514B0D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A31BA5-12BC-414C-BAE0-BA46514B0D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A31BA5-12BC-414C-BAE0-BA46514B0D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A31BA5-12BC-414C-BAE0-BA46514B0D77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1B4ADACE-3A41-4739-9EC1-9834710C7445} = {B420862E-F125-4BA7-97EE-0023033C4A56}
 		{E62F5887-96B9-4259-A973-36D019CE6E41} = {E48AC995-DEC6-4304-A410-B8D1C24313AF}
+		{61A31BA5-12BC-414C-BAE0-BA46514B0D77} = {E48AC995-DEC6-4304-A410-B8D1C24313AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DE16433-72D2-405C-874D-1AF7C6C48BF0}

@@ -51,7 +51,8 @@
 //int? age = null;
 //Nullable<int> id = null;
 
-//int? databaseCodeValue = 36;
+int? databaseCodeValue = null;
+int? age = databaseCodeValue;
 //int? code = databaseCodeValue;
 //Console.WriteLine(code + 25);
 #endregion
