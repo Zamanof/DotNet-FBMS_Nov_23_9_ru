@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Net 08", ".Net 08", "{3E1C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 08. Indexers", "Net 08. Indexers\Net 08. Indexers.csproj", "{2584E101-EDCF-4D3A-8A65-3CF282C7B89E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 08. Inheritance", "Net 08. Inheritance\Net 08. Inheritance.csproj", "{7D969DAE-08D9-4B99-BB5C-C7DBA8C45A99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2584E101-EDCF-4D3A-8A65-3CF282C7B89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2584E101-EDCF-4D3A-8A65-3CF282C7B89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2584E101-EDCF-4D3A-8A65-3CF282C7B89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D969DAE-08D9-4B99-BB5C-C7DBA8C45A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D969DAE-08D9-4B99-BB5C-C7DBA8C45A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D969DAE-08D9-4B99-BB5C-C7DBA8C45A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D969DAE-08D9-4B99-BB5C-C7DBA8C45A99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{E62F5887-96B9-4259-A973-36D019CE6E41} = {E48AC995-DEC6-4304-A410-B8D1C24313AF}
 		{61A31BA5-12BC-414C-BAE0-BA46514B0D77} = {E48AC995-DEC6-4304-A410-B8D1C24313AF}
 		{2584E101-EDCF-4D3A-8A65-3CF282C7B89E} = {3E1C4047-045F-435C-AD03-6410CA5FAE3A}
+		{7D969DAE-08D9-4B99-BB5C-C7DBA8C45A99} = {3E1C4047-045F-435C-AD03-6410CA5FAE3A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DE16433-72D2-405C-874D-1AF7C6C48BF0}
