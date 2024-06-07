@@ -10,6 +10,12 @@ Point point2 = new(5, 3);
 //Console.WriteLine(-1 * point1);
 
 Console.WriteLine(point1.Equals(point2));
+Foo foo = new Foo();
+foo.
+class Foo
+{
+
+}
 class Point
 {
     public int X { get; set; }
@@ -88,6 +94,5 @@ class Point
             X = point.X * value,
             Y = point.Y * value
         };
-    }
-
+    } 
 }
