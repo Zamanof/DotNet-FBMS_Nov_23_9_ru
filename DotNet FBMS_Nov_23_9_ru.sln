@@ -23,15 +23,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 08. Polymorphism", "Net
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET 09", ".NET 09", "{C7FAD414-C523-460C-B81E-97868A87F916}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 09. Abstract class", "NET 09. Abstract class\NET 09. Abstract class.csproj", "{AA0515F3-B697-44FC-80EE-87EE530ED02D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 09. Abstract class", "NET 09. Abstract class\NET 09. Abstract class.csproj", "{AA0515F3-B697-44FC-80EE-87EE530ED02D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 09. Interfaces", "NET 09. Interfaces\NET 09. Interfaces.csproj", "{7F6C03A9-5221-4B01-B1CA-36F078227D74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 09. Interfaces", "NET 09. Interfaces\NET 09. Interfaces.csproj", "{7F6C03A9-5221-4B01-B1CA-36F078227D74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 09. Interface example", "Net 09. Interface example\Net 09. Interface example.csproj", "{3E66AC49-1356-40FF-9D22-290DBF1B8EE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 09. Interface example", "Net 09. Interface example\Net 09. Interface example.csproj", "{3E66AC49-1356-40FF-9D22-290DBF1B8EE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 09. Interface explicitly implementation", "Net 09. Interface explicitly implementation\Net 09. Interface explicitly implementation.csproj", "{BDE7C66D-4AE2-420F-96AA-6F07E98AC1A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 09. Interface explicitly implementation", "Net 09. Interface explicitly implementation\Net 09. Interface explicitly implementation.csproj", "{BDE7C66D-4AE2-420F-96AA-6F07E98AC1A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 09. Delegates", "NET 09. Delegates\NET 09. Delegates.csproj", "{8F717EF7-55D5-4481-8D0D-DE604406997D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET 09. Delegates", "NET 09. Delegates\NET 09. Delegates.csproj", "{8F717EF7-55D5-4481-8D0D-DE604406997D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET 10", ".NET 10", "{EB29A39D-02F3-47A3-A496-838D09A45C7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 10. Multicast delegates", "NET 10. Multicast delegates\NET 10. Multicast delegates.csproj", "{DFAF5A25-B4CF-4E2D-A13C-08434B1E28A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 10. Standard delegates", "NET 10. Standard delegates\NET 10. Standard delegates.csproj", "{EE456842-B78F-4B86-91D6-6887755467F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 10. Standard interfaces", "NET 10. Standard interfaceses\NET 10. Standard interfaces.csproj", "{FEF81728-F356-4A1B-8D90-D1472F478D8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +91,18 @@ Global
 		{8F717EF7-55D5-4481-8D0D-DE604406997D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F717EF7-55D5-4481-8D0D-DE604406997D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F717EF7-55D5-4481-8D0D-DE604406997D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAF5A25-B4CF-4E2D-A13C-08434B1E28A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAF5A25-B4CF-4E2D-A13C-08434B1E28A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAF5A25-B4CF-4E2D-A13C-08434B1E28A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAF5A25-B4CF-4E2D-A13C-08434B1E28A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE456842-B78F-4B86-91D6-6887755467F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE456842-B78F-4B86-91D6-6887755467F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE456842-B78F-4B86-91D6-6887755467F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE456842-B78F-4B86-91D6-6887755467F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF81728-F356-4A1B-8D90-D1472F478D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF81728-F356-4A1B-8D90-D1472F478D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF81728-F356-4A1B-8D90-D1472F478D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF81728-F356-4A1B-8D90-D1472F478D8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +119,9 @@ Global
 		{3E66AC49-1356-40FF-9D22-290DBF1B8EE7} = {C7FAD414-C523-460C-B81E-97868A87F916}
 		{BDE7C66D-4AE2-420F-96AA-6F07E98AC1A1} = {C7FAD414-C523-460C-B81E-97868A87F916}
 		{8F717EF7-55D5-4481-8D0D-DE604406997D} = {C7FAD414-C523-460C-B81E-97868A87F916}
+		{DFAF5A25-B4CF-4E2D-A13C-08434B1E28A5} = {EB29A39D-02F3-47A3-A496-838D09A45C7D}
+		{EE456842-B78F-4B86-91D6-6887755467F8} = {EB29A39D-02F3-47A3-A496-838D09A45C7D}
+		{FEF81728-F356-4A1B-8D90-D1472F478D8E} = {EB29A39D-02F3-47A3-A496-838D09A45C7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DE16433-72D2-405C-874D-1AF7C6C48BF0}
