@@ -1,5 +1,11 @@
-﻿namespace NET_10._Standard_interfaceses;
+﻿using System.Collections;
 
-internal class StudentIdComparer
+namespace NET_10._Standard_interfaceses;
+
+internal class StudentIdComparer : IComparer
 {
+    public int Compare(object? x, object? y)
+    {
+        return string.Compare((x as Student)!.StudentCard!.ToString(), (y as Student)!.StudentCard!.ToString());
+    }
 }
