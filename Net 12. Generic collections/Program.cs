@@ -33,4 +33,3 @@ for (int i = 0; i < list.Count; i++)
 {
     Console.Write($"{list[i] * 10} ");
 }
-

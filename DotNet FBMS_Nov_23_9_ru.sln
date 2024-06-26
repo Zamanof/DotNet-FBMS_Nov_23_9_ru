@@ -53,15 +53,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 11. EventArgs", "Net 11
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET 12", ".NET 12", "{017104F6-C4E4-458A-A3A2-32BB2DA776F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 12. Collections", "Net 12. Collections\Net 12. Collections.csproj", "{4FB1A537-8E78-4079-A0DE-E98C8F91E3B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 12. Collections", "Net 12. Collections\Net 12. Collections.csproj", "{4FB1A537-8E78-4079-A0DE-E98C8F91E3B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 12. Boxing, unboxing", "Net 12. Boxing, unboxing\Net 12. Boxing, unboxing.csproj", "{C55086BB-7490-49E5-A26A-B5C35A0E7B15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 12. Boxing, unboxing", "Net 12. Boxing, unboxing\Net 12. Boxing, unboxing.csproj", "{C55086BB-7490-49E5-A26A-B5C35A0E7B15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 12. Generic", "Net 12. Generic\Net 12. Generic.csproj", "{F2E964D8-82BD-466E-9787-4FE5D81B5190}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 12. Generic", "Net 12. Generic\Net 12. Generic.csproj", "{F2E964D8-82BD-466E-9787-4FE5D81B5190}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 12. Generic collections", "Net 12. Generic collections\Net 12. Generic collections.csproj", "{C667CBAF-E737-41AC-B565-2551EBCF6308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 12. Generic collections", "Net 12. Generic collections\Net 12. Generic collections.csproj", "{C667CBAF-E737-41AC-B565-2551EBCF6308}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 12. Generic vs Non Generic collections", "Net 12. Generic vs Non Generic collections\Net 12. Generic vs Non Generic collections.csproj", "{7628A5EA-AB19-43BD-83C9-7BF31B0DD30A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 12. Generic vs Non Generic collections", "Net 12. Generic vs Non Generic collections\Net 12. Generic vs Non Generic collections.csproj", "{7628A5EA-AB19-43BD-83C9-7BF31B0DD30A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET 13", ".NET 13", "{0B72468F-2B55-4790-B08B-9D0ADCB539E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 13. LINQ", "Net 13. LINQ\Net 13. LINQ.csproj", "{55798159-A941-4D1D-A245-BAD0B3331A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 13. LINQ join", "Net 13. LINQ join\Net 13. LINQ join.csproj", "{E0BB170B-4CD9-418A-80EB-092E794FB74D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 13. Anonymus methods, Lambda expression", "Net 13. Anonymus methods, Lambda expression\Net 13. Anonymus methods, Lambda expression.csproj", "{5D1C5842-60A3-4F48-9C07-0CE12EB2606F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 13. LINQ methods", "Net 13. LINQ methods\Net 13. LINQ methods.csproj", "{05E4CF8F-121A-4F0D-B7CB-4FCE9924B877}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +171,22 @@ Global
 		{7628A5EA-AB19-43BD-83C9-7BF31B0DD30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7628A5EA-AB19-43BD-83C9-7BF31B0DD30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7628A5EA-AB19-43BD-83C9-7BF31B0DD30A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55798159-A941-4D1D-A245-BAD0B3331A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55798159-A941-4D1D-A245-BAD0B3331A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55798159-A941-4D1D-A245-BAD0B3331A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55798159-A941-4D1D-A245-BAD0B3331A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0BB170B-4CD9-418A-80EB-092E794FB74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0BB170B-4CD9-418A-80EB-092E794FB74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0BB170B-4CD9-418A-80EB-092E794FB74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0BB170B-4CD9-418A-80EB-092E794FB74D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D1C5842-60A3-4F48-9C07-0CE12EB2606F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D1C5842-60A3-4F48-9C07-0CE12EB2606F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D1C5842-60A3-4F48-9C07-0CE12EB2606F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D1C5842-60A3-4F48-9C07-0CE12EB2606F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E4CF8F-121A-4F0D-B7CB-4FCE9924B877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E4CF8F-121A-4F0D-B7CB-4FCE9924B877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E4CF8F-121A-4F0D-B7CB-4FCE9924B877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E4CF8F-121A-4F0D-B7CB-4FCE9924B877}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -189,6 +215,10 @@ Global
 		{F2E964D8-82BD-466E-9787-4FE5D81B5190} = {017104F6-C4E4-458A-A3A2-32BB2DA776F0}
 		{C667CBAF-E737-41AC-B565-2551EBCF6308} = {017104F6-C4E4-458A-A3A2-32BB2DA776F0}
 		{7628A5EA-AB19-43BD-83C9-7BF31B0DD30A} = {017104F6-C4E4-458A-A3A2-32BB2DA776F0}
+		{55798159-A941-4D1D-A245-BAD0B3331A95} = {0B72468F-2B55-4790-B08B-9D0ADCB539E2}
+		{E0BB170B-4CD9-418A-80EB-092E794FB74D} = {0B72468F-2B55-4790-B08B-9D0ADCB539E2}
+		{5D1C5842-60A3-4F48-9C07-0CE12EB2606F} = {0B72468F-2B55-4790-B08B-9D0ADCB539E2}
+		{05E4CF8F-121A-4F0D-B7CB-4FCE9924B877} = {0B72468F-2B55-4790-B08B-9D0ADCB539E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DE16433-72D2-405C-874D-1AF7C6C48BF0}
