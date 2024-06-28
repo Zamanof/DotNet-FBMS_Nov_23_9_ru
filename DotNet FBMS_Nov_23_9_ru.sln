@@ -77,6 +77,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET 14", ".NET 14", "{9CD4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 14. Extension methods", "Net 14. Extension methods\Net 14. Extension methods.csproj", "{ED934996-0E00-4CC7-B092-3332A7FF64A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 14. Exceptions", "Net 14. Exceptions\Net 14. Exceptions.csproj", "{4D684659-4BE1-4703-838F-79AC53E6114B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{ED934996-0E00-4CC7-B092-3332A7FF64A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED934996-0E00-4CC7-B092-3332A7FF64A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED934996-0E00-4CC7-B092-3332A7FF64A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D684659-4BE1-4703-838F-79AC53E6114B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D684659-4BE1-4703-838F-79AC53E6114B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D684659-4BE1-4703-838F-79AC53E6114B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D684659-4BE1-4703-838F-79AC53E6114B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -228,6 +234,7 @@ Global
 		{5D1C5842-60A3-4F48-9C07-0CE12EB2606F} = {0B72468F-2B55-4790-B08B-9D0ADCB539E2}
 		{05E4CF8F-121A-4F0D-B7CB-4FCE9924B877} = {0B72468F-2B55-4790-B08B-9D0ADCB539E2}
 		{ED934996-0E00-4CC7-B092-3332A7FF64A2} = {9CD495E6-B78F-44E0-8305-91497BB07498}
+		{4D684659-4BE1-4703-838F-79AC53E6114B} = {9CD495E6-B78F-44E0-8305-91497BB07498}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DE16433-72D2-405C-874D-1AF7C6C48BF0}
