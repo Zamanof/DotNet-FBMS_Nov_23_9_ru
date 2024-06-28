@@ -65,13 +65,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 12. Generic vs Non Gene
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET 13", ".NET 13", "{0B72468F-2B55-4790-B08B-9D0ADCB539E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 13. LINQ", "Net 13. LINQ\Net 13. LINQ.csproj", "{55798159-A941-4D1D-A245-BAD0B3331A95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 13. LINQ", "Net 13. LINQ\Net 13. LINQ.csproj", "{55798159-A941-4D1D-A245-BAD0B3331A95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 13. LINQ join", "Net 13. LINQ join\Net 13. LINQ join.csproj", "{E0BB170B-4CD9-418A-80EB-092E794FB74D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 13. LINQ join", "Net 13. LINQ join\Net 13. LINQ join.csproj", "{E0BB170B-4CD9-418A-80EB-092E794FB74D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 13. Anonymus methods, Lambda expression", "Net 13. Anonymus methods, Lambda expression\Net 13. Anonymus methods, Lambda expression.csproj", "{5D1C5842-60A3-4F48-9C07-0CE12EB2606F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 13. Anonymus methods, Lambda expression", "Net 13. Anonymus methods, Lambda expression\Net 13. Anonymus methods, Lambda expression.csproj", "{5D1C5842-60A3-4F48-9C07-0CE12EB2606F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 13. LINQ methods", "Net 13. LINQ methods\Net 13. LINQ methods.csproj", "{05E4CF8F-121A-4F0D-B7CB-4FCE9924B877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 13. LINQ methods", "Net 13. LINQ methods\Net 13. LINQ methods.csproj", "{05E4CF8F-121A-4F0D-B7CB-4FCE9924B877}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET 14", ".NET 14", "{9CD495E6-B78F-44E0-8305-91497BB07498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 14. Extension methods", "Net 14. Extension methods\Net 14. Extension methods.csproj", "{ED934996-0E00-4CC7-B092-3332A7FF64A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -187,6 +191,10 @@ Global
 		{05E4CF8F-121A-4F0D-B7CB-4FCE9924B877}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05E4CF8F-121A-4F0D-B7CB-4FCE9924B877}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05E4CF8F-121A-4F0D-B7CB-4FCE9924B877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED934996-0E00-4CC7-B092-3332A7FF64A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED934996-0E00-4CC7-B092-3332A7FF64A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED934996-0E00-4CC7-B092-3332A7FF64A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED934996-0E00-4CC7-B092-3332A7FF64A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -219,6 +227,7 @@ Global
 		{E0BB170B-4CD9-418A-80EB-092E794FB74D} = {0B72468F-2B55-4790-B08B-9D0ADCB539E2}
 		{5D1C5842-60A3-4F48-9C07-0CE12EB2606F} = {0B72468F-2B55-4790-B08B-9D0ADCB539E2}
 		{05E4CF8F-121A-4F0D-B7CB-4FCE9924B877} = {0B72468F-2B55-4790-B08B-9D0ADCB539E2}
+		{ED934996-0E00-4CC7-B092-3332A7FF64A2} = {9CD495E6-B78F-44E0-8305-91497BB07498}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DE16433-72D2-405C-874D-1AF7C6C48BF0}

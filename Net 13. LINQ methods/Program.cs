@@ -124,15 +124,67 @@ new Student { FirstName ="Tallou",LastName="Creese",Age=20,GroupId=7}
 //}
 #endregion
 
-#region Take, Skip, TakeLast, SkipLast, SkipWhile, TakeWhile 
+#region Take, Skip, TakeLast, SkipLast, SkipWhile, TakeWhile
+//var studs = students.Skip(3).Take(5).ToList();
+//foreach (Student student in studs)
+//{
+//    Console.WriteLine(student);
+//}
 
+//var studs = students.TakeWhile(s=>s.Age < 90).ToList();
+//foreach (Student student in studs)
+//{
+//    Console.WriteLine(student);
+//}
+
+//var studs = students.SkipWhile(s => s.Age < 100).ToList();
+//foreach (Student student in studs)
+//{
+//    Console.WriteLine(student);
+//}
 #endregion
 
 #region All, Any
+//var check = students.Any(s => s.Age > 40);
+//Console.WriteLine(check);
 
+//var check = students.All(s => s.Age > 10);
+//Console.WriteLine(check);
 #endregion
 
 #region Join, GroupJoin
+//var result = groups.Join(students,
+//                            g => g.Id, s => s.GroupId,
+//                            (g, s) => new {
+//                                Firstname = s.FirstName, 
+//                                LastName = s.LastName,
+//                                Age = s.Age,
+//                                GroupName = g.Name,
+//                                Faculty = g.Faculty
+//                                });
 
+//foreach (var student in result)
+//{
+//    Console.WriteLine($"{student.Firstname} {student.LastName} {student.Age} - {student.GroupName}: {student.Faculty}");
+//}
+
+//var result = groups.GroupJoin(students,
+//                            g => g.Id, s => s.GroupId,
+//                            (g, students) => new
+//                            {
+//                                GroupName = g.Name,
+//                                Studens = students,
+//                            });
+
+
+
+//foreach (var group in result)
+//{
+//    Console.WriteLine(group.GroupName);
+//    foreach (var student in group.Studens)
+//    {
+//        Console.WriteLine($"   {student}");
+//    }
+//}
 #endregion
 
