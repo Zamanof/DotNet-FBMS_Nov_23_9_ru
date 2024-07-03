@@ -1,4 +1,5 @@
 ﻿using Net_15._Serialization;
+using System.Text.Json;
 using System.Xml.Serialization;
 
 Book book = new Book()
@@ -53,6 +54,38 @@ serializer = new XmlSerializer(typeof(List<Book>));
 #endregion
 
 #region JSON Serialization
+// Single object to json file
+//using (FileStream file = new("book.json", FileMode.OpenOrCreate))
+//{
+//    JsonSerializerOptions options = new JsonSerializerOptions();
+//    options.WriteIndented = true;
+//    //var json = JsonSerializer.Serialize(book, options);
+//    //Console.WriteLine(json);
+//    JsonSerializer.Serialize(file, book, options);
+//}
 
+//using (FileStream file = new FileStream("book.json", FileMode.Open))
+//{
+//    var result = JsonSerializer.Deserialize<Book>(file);
+//    Console.WriteLine(result);
+//}
+
+// List to json file
+//using (FileStream file = new("books.json", FileMode.OpenOrCreate))
+//{
+//    JsonSerializerOptions options = new JsonSerializerOptions();
+//    options.WriteIndented = true;
+//    JsonSerializer.Serialize(file, books, options);
+//}
+
+//using (FileStream file = new FileStream("books.json", FileMode.Open))
+//{
+//    var result = JsonSerializer.Deserialize<List<Book>>(file);
+//    foreach (var item in result)
+//    {
+//        Console.WriteLine(item);
+//        Console.WriteLine();
+//    }
+//}
 
 #endregion
