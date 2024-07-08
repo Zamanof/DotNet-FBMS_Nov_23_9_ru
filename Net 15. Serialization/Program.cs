@@ -19,6 +19,7 @@ List<Book> books = new List<Book>() {
 }
 };
 
+
 #region XML Serialization
 XmlSerializer serializer = new XmlSerializer(typeof(Book));
 //using (FileStream fileStream = new("book.xml", FileMode.OpenOrCreate))

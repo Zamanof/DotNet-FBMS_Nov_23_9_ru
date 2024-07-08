@@ -81,21 +81,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 14. Exceptions", "Net 1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET 15", ".NET 15", "{DB02A01E-9EBF-4786-9A2E-1027B521E3F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 15. Finalizer", "Net 15. Finalizer\Net 15. Finalizer.csproj", "{F6CE4B27-1E4A-48BD-8504-C859D4372DE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 15. Finalizer", "Net 15. Finalizer\Net 15. Finalizer.csproj", "{F6CE4B27-1E4A-48BD-8504-C859D4372DE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 15. IDisposable", "Net 15. IDisposable\Net 15. IDisposable.csproj", "{59B7A72E-B932-4993-A7B7-F0951DBE2FE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 15. IDisposable", "Net 15. IDisposable\Net 15. IDisposable.csproj", "{59B7A72E-B932-4993-A7B7-F0951DBE2FE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 15. IDisposable and using", "Net 15. IDisposable and using\Net 15. IDisposable and using.csproj", "{12000405-F61D-4418-B9A2-86F0E7E10656}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 15. IDisposable and using", "Net 15. IDisposable and using\Net 15. IDisposable and using.csproj", "{12000405-F61D-4418-B9A2-86F0E7E10656}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 15. StreamWriter, StreamReader", "Net 15. StreamWriter, StreamReader\Net 15. StreamWriter, StreamReader.csproj", "{C09A6099-F92D-47FB-9E78-A0A53B87DCBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 15. StreamWriter, StreamReader", "Net 15. StreamWriter, StreamReader\Net 15. StreamWriter, StreamReader.csproj", "{C09A6099-F92D-47FB-9E78-A0A53B87DCBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 15. File byte streams", "Net 15. File byte streams\Net 15. File byte streams.csproj", "{0D503184-4876-4D55-8136-D531CF92570B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 15. File byte streams", "Net 15. File byte streams\Net 15. File byte streams.csproj", "{0D503184-4876-4D55-8136-D531CF92570B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 15. BinaryWriter, BinaryReader", "Net 15. BinaryWriter, BinaryReader\Net 15. BinaryWriter, BinaryReader.csproj", "{FC7EE8BD-1A46-4564-916F-AE99997578B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 15. BinaryWriter, BinaryReader", "Net 15. BinaryWriter, BinaryReader\Net 15. BinaryWriter, BinaryReader.csproj", "{FC7EE8BD-1A46-4564-916F-AE99997578B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 15. Directory", "Net 15. Directory\Net 15. Directory.csproj", "{1CD299C3-0CB8-4297-914F-01B5A5179C1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 15. Directory", "Net 15. Directory\Net 15. Directory.csproj", "{1CD299C3-0CB8-4297-914F-01B5A5179C1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 15. Serialization", "Net 15. Serialization\Net 15. Serialization.csproj", "{19E251F1-53DF-4C58-A69E-751A6AD740B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 15. Serialization", "Net 15. Serialization\Net 15. Serialization.csproj", "{19E251F1-53DF-4C58-A69E-751A6AD740B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET 17", ".NET 17", "{B137DC73-665E-4B8D-982C-3F7F05C042CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 17. SOLID", "Net 17. SOLID\Net 17. SOLID.csproj", "{E1DB7EBA-D422-4016-BB62-B8A13BEF9629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 17.  1. Single Responsibilty", "Net 17. 1. Single Responsibilty\Net 17.  1. Single Responsibilty.csproj", "{C74A9E83-712D-4467-B00A-07DE7BC1140F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 17.  2. Open_Closed", "Net 17. 2. Open_Closed\Net 17.  2. Open_Closed.csproj", "{A07068F2-33B7-44FB-A568-8C9F933EE226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 17. 3. Liskov Substitution", "Net 17. 3. Liskov Substitution\Net 17. 3. Liskov Substitution.csproj", "{7E6B4531-FC17-4EC3-A9E4-ED79EA25D7EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 17. 4. Interface_Segregation", "Net 17. 4. Interface_Segregation\Net 17. 4. Interface_Segregation.csproj", "{EA2C24E0-3F9D-4084-9EA7-5F0F15739140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 17. 4. Dependency_Inversion", "Net 17. 4. Dependency_Inversion\Net 17. 4. Dependency_Inversion.csproj", "{B1CE79A9-13EB-49E2-ADC8-56A50EA4EEB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 17. Singleton pattern", "Net 17. Singleton pattern\Net 17. Singleton pattern.csproj", "{415C02FB-2575-4D2A-B6CA-887FF9CD70DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -251,6 +267,34 @@ Global
 		{19E251F1-53DF-4C58-A69E-751A6AD740B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19E251F1-53DF-4C58-A69E-751A6AD740B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19E251F1-53DF-4C58-A69E-751A6AD740B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1DB7EBA-D422-4016-BB62-B8A13BEF9629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1DB7EBA-D422-4016-BB62-B8A13BEF9629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1DB7EBA-D422-4016-BB62-B8A13BEF9629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1DB7EBA-D422-4016-BB62-B8A13BEF9629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C74A9E83-712D-4467-B00A-07DE7BC1140F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74A9E83-712D-4467-B00A-07DE7BC1140F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74A9E83-712D-4467-B00A-07DE7BC1140F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74A9E83-712D-4467-B00A-07DE7BC1140F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07068F2-33B7-44FB-A568-8C9F933EE226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07068F2-33B7-44FB-A568-8C9F933EE226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07068F2-33B7-44FB-A568-8C9F933EE226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07068F2-33B7-44FB-A568-8C9F933EE226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6B4531-FC17-4EC3-A9E4-ED79EA25D7EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6B4531-FC17-4EC3-A9E4-ED79EA25D7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6B4531-FC17-4EC3-A9E4-ED79EA25D7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6B4531-FC17-4EC3-A9E4-ED79EA25D7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA2C24E0-3F9D-4084-9EA7-5F0F15739140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2C24E0-3F9D-4084-9EA7-5F0F15739140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2C24E0-3F9D-4084-9EA7-5F0F15739140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2C24E0-3F9D-4084-9EA7-5F0F15739140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CE79A9-13EB-49E2-ADC8-56A50EA4EEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CE79A9-13EB-49E2-ADC8-56A50EA4EEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CE79A9-13EB-49E2-ADC8-56A50EA4EEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CE79A9-13EB-49E2-ADC8-56A50EA4EEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415C02FB-2575-4D2A-B6CA-887FF9CD70DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415C02FB-2575-4D2A-B6CA-887FF9CD70DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415C02FB-2575-4D2A-B6CA-887FF9CD70DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415C02FB-2575-4D2A-B6CA-887FF9CD70DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -293,6 +337,13 @@ Global
 		{FC7EE8BD-1A46-4564-916F-AE99997578B9} = {DB02A01E-9EBF-4786-9A2E-1027B521E3F6}
 		{1CD299C3-0CB8-4297-914F-01B5A5179C1C} = {DB02A01E-9EBF-4786-9A2E-1027B521E3F6}
 		{19E251F1-53DF-4C58-A69E-751A6AD740B3} = {DB02A01E-9EBF-4786-9A2E-1027B521E3F6}
+		{E1DB7EBA-D422-4016-BB62-B8A13BEF9629} = {B137DC73-665E-4B8D-982C-3F7F05C042CF}
+		{C74A9E83-712D-4467-B00A-07DE7BC1140F} = {B137DC73-665E-4B8D-982C-3F7F05C042CF}
+		{A07068F2-33B7-44FB-A568-8C9F933EE226} = {B137DC73-665E-4B8D-982C-3F7F05C042CF}
+		{7E6B4531-FC17-4EC3-A9E4-ED79EA25D7EB} = {B137DC73-665E-4B8D-982C-3F7F05C042CF}
+		{EA2C24E0-3F9D-4084-9EA7-5F0F15739140} = {B137DC73-665E-4B8D-982C-3F7F05C042CF}
+		{B1CE79A9-13EB-49E2-ADC8-56A50EA4EEB9} = {B137DC73-665E-4B8D-982C-3F7F05C042CF}
+		{415C02FB-2575-4D2A-B6CA-887FF9CD70DB} = {B137DC73-665E-4B8D-982C-3F7F05C042CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DE16433-72D2-405C-874D-1AF7C6C48BF0}
