@@ -123,11 +123,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 16. Atributes", "Net 16
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Net 18", ".Net 18", "{8F3615B0-C6C8-420E-8E3F-46C715B6E48C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 18. Factory method", "Net 18. Factory method\Net 18. Factory method.csproj", "{0BB2F982-C82F-4F1A-A902-16F7688D7E42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 18. Factory method", "Net 18. Factory method\Net 18. Factory method.csproj", "{0BB2F982-C82F-4F1A-A902-16F7688D7E42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 18. Builder pattern", "Net 18. Builder pattern\Net 18. Builder pattern.csproj", "{BB02C8F4-A230-4B0E-B7F8-D4C2F4E427A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 18. Builder pattern", "Net 18. Builder pattern\Net 18. Builder pattern.csproj", "{BB02C8F4-A230-4B0E-B7F8-D4C2F4E427A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 18. Observer pattern", "Net 18. Observer pattern\Net 18. Observer pattern.csproj", "{F6E856FD-F8BA-4466-862C-D0CF3A6B4B1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net 18. Observer pattern", "Net 18. Observer pattern\Net 18. Observer pattern.csproj", "{F6E856FD-F8BA-4466-862C-D0CF3A6B4B1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Net 19", ".Net 19", "{4EE8F3A9-B51B-49F0-8875-23486F678347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 19. Facade", "Net 19. Facade\Net 19. Facade.csproj", "{F3FE98C5-59EB-40F3-9A4A-6F13B2AB280F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 19. Adapter", "Net 19. Adapter\Net 19. Adapter.csproj", "{15127172-0670-410F-8D77-68958A92F08E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net 19. Strategy Pattern", "Net 19. Strategy Pattern\Net 19. Strategy Pattern.csproj", "{845936D8-6EF0-4D2F-923F-64A4C3BA53AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -335,6 +343,18 @@ Global
 		{F6E856FD-F8BA-4466-862C-D0CF3A6B4B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6E856FD-F8BA-4466-862C-D0CF3A6B4B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6E856FD-F8BA-4466-862C-D0CF3A6B4B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3FE98C5-59EB-40F3-9A4A-6F13B2AB280F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3FE98C5-59EB-40F3-9A4A-6F13B2AB280F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3FE98C5-59EB-40F3-9A4A-6F13B2AB280F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3FE98C5-59EB-40F3-9A4A-6F13B2AB280F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15127172-0670-410F-8D77-68958A92F08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15127172-0670-410F-8D77-68958A92F08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15127172-0670-410F-8D77-68958A92F08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15127172-0670-410F-8D77-68958A92F08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845936D8-6EF0-4D2F-923F-64A4C3BA53AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845936D8-6EF0-4D2F-923F-64A4C3BA53AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845936D8-6EF0-4D2F-923F-64A4C3BA53AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845936D8-6EF0-4D2F-923F-64A4C3BA53AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -390,6 +410,9 @@ Global
 		{0BB2F982-C82F-4F1A-A902-16F7688D7E42} = {8F3615B0-C6C8-420E-8E3F-46C715B6E48C}
 		{BB02C8F4-A230-4B0E-B7F8-D4C2F4E427A3} = {8F3615B0-C6C8-420E-8E3F-46C715B6E48C}
 		{F6E856FD-F8BA-4466-862C-D0CF3A6B4B1C} = {8F3615B0-C6C8-420E-8E3F-46C715B6E48C}
+		{F3FE98C5-59EB-40F3-9A4A-6F13B2AB280F} = {4EE8F3A9-B51B-49F0-8875-23486F678347}
+		{15127172-0670-410F-8D77-68958A92F08E} = {4EE8F3A9-B51B-49F0-8875-23486F678347}
+		{845936D8-6EF0-4D2F-923F-64A4C3BA53AB} = {4EE8F3A9-B51B-49F0-8875-23486F678347}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DE16433-72D2-405C-874D-1AF7C6C48BF0}
